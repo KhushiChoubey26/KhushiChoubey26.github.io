@@ -6,8 +6,6 @@ A fully responsive personal portfolio website showcasing my skills, experience, 
 
 This portfolio website serves as a comprehensive showcase of my professional journey, skills, and projects. It features a clean, modern design with intuitive navigation and responsive layout for optimal viewing across all devices.
 
-![Portfolio Preview](./website-demo-image/desktop.png "Portfolio Preview")
-
 ## Features
 
 - **Responsive Design**: Optimized for all devices (desktop, tablet, and mobile)
