@@ -1,0 +1,207 @@
+vCard - Personal Portfolio
+
+# sidebar
+
+alt = Khushi Choubey
+Khushi Choubey
+Software Developer & Data Scientist
+
+Show Contacts
+
+Email
+choubeykhushi029@gmail.com
+
+Phone
++61 0433411168
+
+Location
+1A Halley St, Blackburn, 3130, VIC, Australia
+
+# navbar
+
+About
+Resume
+Portfolio
+Contact
+
+# about
+
+About me
+
+Results-driven Software Developer with a strong foundation in machine learning, data engineering, and software development. Proficient in designing and deploying scalable applications, building end-to-end ETL pipelines, and integrating machine learning models into software solutions to deliver actionable insights.
+
+Adept at leveraging cloud technologies, including AWS and GCP, to develop and deploy high-performance, resilient applications. Demonstrates expertise in Agile methodologies, version control systems, and CI/CD pipelines to ensure efficient development workflows. Passionate about creating innovative solutions that enhance business processes and user experiences while staying at the forefront of technological advancements.
+
+
+## service
+
+What I'm doing
+
+alt = design icon
+Machine Learning
+Crafting intelligent algorithms that learn from data, from neural networks to evolutionary computation, transforming complex patterns into actionable insights.
+
+alt = Web development icon
+Software Development
+Building elegant, scalable applications with modern frameworks and clean code practices that balance performance, maintainability, and user experience.
+
+alt = mobile app icon
+Data Engineering
+Designing robust ETL pipelines and data architectures using cloud technologies to ensure reliable, efficient data flows that power analytics and ML systems.
+
+alt = research icon
+Medical AI Research
+Pioneering computational approaches to decode biological mechanisms, with a focus on peptide splicing for advancing immunology and drug development.
+
+
+## certifications
+
+Certifications
+
+Introduction To Gen AI (Beginner, Advanced)
+Google
+
+Professional Data Science Certificate
+Board Infinity
+
+Computation Thinking using Python
+MIT 6.00.2x
+
+Building Deep Learning Models with TensorFlow
+Google
+
+Introduction to Machine Learning
+IBM
+
+Python Data Structure and Algorithms
+Coding Ninjas
+
+
+# resume
+
+Resume
+
+Education
+
+MASTER'S IN DATA SCIENCE | Deakin University, Melbourne, Australia
+2023 — Present
+Relevant Coursework: Database Management Systems, Object Oriented Programming, Machine Learning, Deep Learning, Bayesian Learning and Graphical Models, Statistical Data Analytics, Data Security Computer Organization, Web development.
+
+BTECH IN CIVIL ENGINEERING (dual degree with Minor in CSE) | RCOEM, Nagpur, India
+2019 — 2023
+Relevant Coursework: Data Structure And Algorithm, Artificial Intelligence, Software Engineering Project Management, Machine Learning, Data Analytics.
+
+HIGHER SECONDARY (CLASS XII) | GH Raisoni Vidyaniketan, Nagpur, India
+2018 — 2019
+Achieved 76.00% in Higher Secondary education.
+
+MATRICULATION (CLASS X) | Kendriya Vidhyalaya Vayusena Nagar, Nagpur
+2017 — 2018
+Achieved 9.2 CGPA in Matriculation.
+
+Experience
+
+DATA ENGINEER INTERN | The Salvation Army, Melbourne, Australia
+Sep 2024 - Present
+Maintaining and Enhancing the P2P data environment using Azure Data Factory and SQL, ensuring that reliable and timely data is available for P2P.
+
+MACHINE LEARNING RESEARCHER | BizFlash, Melbourne, Australia
+Dec 2024 - Feb 2025
+Developed and implemented contextual bandit models using Reinforcement Learning (RL) to provide personalised Action Insights, optimising user engagement by balancing exploration and exploitation strategies. Designed dynamic decision-making processes with Upper Confidence Bound (UCB) methods, continually refining model predictions based on real-time user feedback and evolving business contexts.
+
+DATA SCIENCE INTERN | One Percent, Bangalore, India
+Sep 2022 - Dec 2022
+Extracted and processed 10,000+ data points from educational websites using Python, achieving 95 percent extraction accuracy and 97 percent model accuracy with machine learning algorithms.
+
+DATA ANALYST INTERN | Flipspaces, Mumbai, India
+May 2022 - Aug 2022
+Analyzed large datasets with SQL and Tableau, enhancing data accuracy by 20 percent and reducing report time by 30 percent. Boosted user engagement by 15 percent through customer behavior analysis; increased project efficiency by 25 percent with market analysis and vendor evaluation.
+
+Research Experience
+
+Decoding The Rules Of Proteasome-Catalyzed Peptide Splicing (Medical AI) | Monash University, Melbourne
+Feb 2025 - Ongoing
+• A Comprehensive Analysis of Sequence Determinants & Mechanistic Principles.
+• Developing machine learning models to predict splicing efficiency based on peptide sequences.
+• Quantify the efficiency of different splicing types.
+• Collaborating with immunology researchers to advance understanding of antigen presentation.
+
+My skills
+
+Programming Languages
+C/C++, Python, Scala, Java, SQL, JavaScript, Assembly, HTML/CSS, Octave/Matlab
+
+Machine Learning & AI
+Deep Learning, Gen AI, Computer Vision, NLTK, BERT, Scikit-Learn, TensorFlow, PyTorch, Keras, Transformers, HF models, XG Boost, Apache Spark MLlib
+
+Cloud & Data Technologies
+AWS, GCP, Azure Data Factory, SnowFlake, CloudFormation, Vertex AI, Google Collaboratory
+
+Development Tools
+Git, OpenCV, Visual Studio, IntelliJ
+
+Professional Skills
+Strategic Thinking, Data Analysis, Effective Communication, Resource Management, Creative Problem-Solving, Distributed Systems, Product Engineering
+
+
+# portfolio
+
+Portfolio
+
+All
+Machine Learning
+Data Engineering
+Web Development
+Medical AI
+
+Select category
+All
+Machine Learning
+Data Engineering
+Web Development
+Medical AI
+
+alt = Crypto Assets Optimization
+Multi-Objective Evolutionary Optimization of Crypto Assets
+Machine Learning
+
+alt = Music Player App
+Music Player App
+Web Development
+
+alt = ETL Pipeline
+Google Cloud Dataflow ETL Pipeline
+Data Engineering
+
+alt = Medical AI Research
+Decoding The Rules Of Proteasome-Catalyzed Peptide Splicing
+Medical AI Research | Monash University
+
+alt = Face Detection Model
+Face Detection Model using DLib DNN
+Machine Learning
+
+alt = Time Series Forecasting
+Time Series Forecasting Project
+Machine Learning
+
+alt = Recommendation Engine
+Recommendation Engine
+Machine Learning
+
+alt = Sentiment Analysis
+Sentiment Analysis Project
+Machine Learning
+
+
+# contact
+
+Contact
+
+Contact Form
+
+Full name
+Email address
+Your Message
+
+Send Message

@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khushi Choubey - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- EmailJS Library -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar-2.png?v=2" alt="Khushi Choubey" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Khushi Choubey">Khushi Choubey</h1>
+
+          <p class="title">Software Developer & Data Scientist</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:choubeykhushi029@gmail.com" class="contact-link">choubeykhushi029@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+61433411168" class="contact-link">+61 0433411168</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>1A Halley St, Blackburn, 3130, VIC, Australia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/khushi-choubey" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/khushi-choubey" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+          <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Results-driven Software Developer with a strong foundation in machine learning, data engineering, and software development. Proficient in 
+            designing and deploying scalable applications, building end-to-end ETL pipelines, and integrating machine learning models into software 
+            solutions to deliver actionable insights.
+          </p>
+
+          <p>
+            Adept at leveraging cloud technologies, including AWS and GCP, to develop and deploy high-performance, resilient applications. 
+            Demonstrates expertise in Agile methodologies, version control systems, and CI/CD pipelines to ensure 
+            efficient development workflows. Passionate about creating innovative solutions that enhance business processes and user experiences while
+            staying at the forefront of technological advancements.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">
+                  Crafting intelligent algorithms that learn from data, from neural networks to evolutionary computation, transforming complex patterns into actionable insights.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software Development</h4>
+
+                <p class="service-item-text">
+                  Building elegant, scalable applications with modern frameworks and clean code practices that balance performance, maintainability, and user experience.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="data engineering icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Engineering</h4>
+
+                <p class="service-item-text">
+                  Designing robust ETL pipelines and data architectures using cloud technologies to ensure reliable, efficient data flows that power analytics and ML systems.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="research icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Medical AI Research</h4>
+
+                <p class="service-item-text">
+                  Pioneering computational approaches to decode biological mechanisms, with a focus on peptide splicing for advancing immunology and drug development.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - certifications
+        -->
+
+        <section class="certifications">
+
+          <h3 class="h3 certifications-title">Certifications</h3>
+
+          <ul class="certifications-list">
+
+            <li class="certification-item">
+              <div class="content-card">
+                <div class="certification-content">
+                  <h4 class="h4 certification-title">Introduction To Gen AI (Beginner, Advanced)</h4>
+                  <p class="certification-issuer">Google</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="certification-item">
+              <div class="content-card">
+                <div class="certification-content">
+                  <h4 class="h4 certification-title">Professional Data Science Certificate</h4>
+                  <p class="certification-issuer">Board Infinity</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="certification-item">
+              <div class="content-card">
+                <div class="certification-content">
+                  <h4 class="h4 certification-title">Computation Thinking using Python</h4>
+                  <p class="certification-issuer">MIT 6.00.2x</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="certification-item">
+              <div class="content-card">
+                <div class="certification-content">
+                  <h4 class="h4 certification-title">Building Deep Learning Models with TensorFlow</h4>
+                  <p class="certification-issuer">Google</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="certification-item">
+              <div class="content-card">
+                <div class="certification-content">
+                  <h4 class="h4 certification-title">Introduction to Machine Learning</h4>
+                  <p class="certification-issuer">IBM</p>
+            </div>
+              </div>
+            </li>
+
+            <li class="certification-item">
+              <div class="content-card">
+                <div class="certification-content">
+                  <h4 class="h4 certification-title">Python Data Structure and Algorithms</h4>
+                  <p class="certification-issuer">Coding Ninjas</p>
+            </div>
+        </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+          <a href="https://drive.google.com/file/d/1XlHBzF2vsUnJa4aaHjFG9NmpZ1uC5ZmR/view?usp=sharing" target="_blank" class="download-cv-btn">
+            <ion-icon name="download-outline"></ion-icon>
+            <span>Download CV</span>
+          </a>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MASTER'S IN DATA SCIENCE | Deakin University, Melbourne, Australia</h4>
+
+              <span>2023 — Present</span>
+
+              <p class="timeline-text">
+                Relevant Coursework: Database Management Systems, Object Oriented Programming, Machine Learning, Deep Learning, Bayesian Learning and 
+                Graphical Models, Statistical Data Analytics, Data Security Computer Organization, Web development.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">BTECH IN CIVIL ENGINEERING (dual degree with Minor in CSE) | RCOEM, Nagpur, India</h4>
+
+              <span>2019 — 2023</span>
+
+              <p class="timeline-text">
+                Relevant Coursework: Data Structure And Algorithm, Artificial Intelligence, Software Engineering Project Management, Machine Learning, Data 
+                Analytics.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">HIGHER SECONDARY (CLASS XII) | GH Raisoni Vidyaniketan, Nagpur, India</h4>
+
+              <span>2018 — 2019</span>
+
+              <p class="timeline-text">
+                Achieved 76.00% in Higher Secondary education.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MATRICULATION (CLASS X) | Kendriya Vidhyalaya Vayusena Nagar, Nagpur</h4>
+
+              <span>2017 — 2018</span>
+
+              <p class="timeline-text">
+                Achieved 9.2 CGPA in Matriculation.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">DATA ENGINEER INTERN | The Salvation Army, Melbourne, Australia</h4>
+
+              <span>Sep 2024 - Present</span>
+
+              <p class="timeline-text">
+                Maintaining and Enhancing the P2P data environment using Azure Data Factory and SQL, ensuring that reliable and timely data is available
+                for P2P.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MACHINE LEARNING RESEARCHER | BizFlash, Melbourne, Australia</h4>
+
+              <span>Dec 2024 - Feb 2025</span>
+
+              <p class="timeline-text">
+                Developed and implemented contextual bandit models using Reinforcement Learning (RL) to provide personalised Action Insights, optimising 
+                user engagement by balancing exploration and exploitation strategies. Designed dynamic decision-making processes with Upper Confidence 
+                Bound (UCB) methods, continually refining model predictions based on real-time user feedback and evolving business contexts.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">DATA SCIENCE INTERN | One Percent, Bangalore, India</h4>
+
+              <span>Sep 2022 - Dec 2022</span>
+
+              <p class="timeline-text">
+                Extracted and processed 10,000+ data points from educational websites using Python, achieving 95 percent extraction accuracy and 97 percent 
+                model accuracy with machine learning algorithms.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">DATA ANALYST INTERN | Flipspaces, Mumbai, India</h4>
+
+              <span>May 2022 - Aug 2022</span>
+
+              <p class="timeline-text">
+                Analyzed large datasets with SQL and Tableau, enhancing data accuracy by 20 percent and reducing report time by 30 percent. Boosted user
+                engagement by 15 percent through customer behavior analysis; increased project efficiency by 25 percent with market analysis and vendor 
+                evaluation.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+              <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="flask-outline"></ion-icon>
+              </div>
+
+            <h3 class="h3">Research Experience</h3>
+              </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Decoding The Rules Of Proteasome-Catalyzed Peptide Splicing (Medical AI) | Monash University, Melbourne</h4>
+
+              <span>Feb 2025 - Ongoing</span>
+
+              <p class="timeline-text">
+                • A Comprehensive Analysis of Sequence Determinants & Mechanistic Principles.<br>
+                • Developing machine learning models to predict splicing efficiency based on peptide sequences.<br>
+                • Quantify the efficiency of different splicing types.<br>
+                • Collaborating with immunology researchers to advance understanding of antigen presentation.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Programming Languages</h5>
+              </div>
+              <p class="skill-text">C/C++, Python, Scala, Java, SQL, JavaScript, Assembly, HTML/CSS, Octave/Matlab</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning & AI</h5>
+              </div>
+              <p class="skill-text">Deep Learning, Gen AI, Computer Vision, NLTK, BERT, Scikit-Learn, TensorFlow, PyTorch, Keras, Transformers, HF models, XG Boost, Apache Spark MLlib</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Cloud & Data Technologies</h5>
+              </div>
+              <p class="skill-text">AWS, GCP, Azure Data Factory, SnowFlake, CloudFormation, Vertex AI, Google Collaboratory</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Development Tools</h5>
+              </div>
+              <p class="skill-text">Git, OpenCV, Visual Studio, IntelliJ</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Professional Skills</h5>
+              </div>
+              <p class="skill-text">Strategic Thinking, Data Analysis, Effective Communication, Resource Management, Creative Problem-Solving, Distributed Systems, Product Engineering</p>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Engineering</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Medical AI</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-select-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Engineering</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Medical AI</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/KhushiChoubey26/Multi-Objective-Evolutionary-Optimization-of-Crypto-Assets" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Firefly Multi-Objective-Evolutionary-Optimization-of-Crypto-Assets 34932.jpg" alt="Crypto Assets Optimization" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Multi-Objective Evolutionary Optimization of Crypto Assets</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://github.com/KhushiChoubey26/Music-Player-App" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Firefly music player app 92029.jpg" alt="Music Player App" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Music Player App</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="data engineering">
+              <a href="https://github.com/KhushiChoubey26/ETL-Pipeline-in-GCP-Loading-GCS-Data-to-Bigquery-via-Dataflow" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Firefly google cloud dataflow etl pipeline  58598.jpg" alt="ETL Pipeline" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Google Cloud Dataflow ETL Pipeline</h3>
+
+                <p class="project-category">Data Engineering</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="medical ai">
+              <a href="#" onclick="showProjectDetails('peptide-research')">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Firefly decoding the rules of proteasome-catalyzed peptide splicing 97412.jpg" alt="Medical AI Research" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Decoding The Rules Of Proteasome-Catalyzed Peptide Splicing</h3>
+
+                <p class="project-category">Medical AI Research | Monash University</p>
+
+              </a>
+              <div id="peptide-research" class="project-details" style="display: none;">
+                <h4>Ongoing Research (Feb 2025 - Present)</h4>
+                <p>A comprehensive analysis of sequence determinants and mechanistic principles in proteasome-catalyzed peptide splicing.</p>
+                <ul>
+                  <li>Developing machine learning models to predict splicing efficiency based on peptide sequences</li>
+                  <li>Quantifying the efficiency of different splicing types using computational methods</li>
+                  <li>Collaborating with immunology researchers to advance understanding of antigen presentation</li>
+                </ul>
+                  </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/KhushiChoubey26/face-detection-model-using-dlib-dnn" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Firefly face-detection-model-using-dlib-dnn 80194.jpg" alt="Face Detection Model" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Face Detection Model using DLib DNN</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/KhushiChoubey26/Time_Series_Forecasting_Project" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Firefly time series forecasting project 77477.jpg" alt="Time Series Forecasting" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Time Series Forecasting Project</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/KhushiChoubey26/Recommendation-Engine" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Firefly recommendation engine 35354.jpg" alt="Recommendation Engine" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Recommendation Engine</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/KhushiChoubey26/Sentiment-Analysis-Project" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Firefly sentimental analysis project 97412.jpg" alt="Sentiment Analysis" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sentiment Analysis Project</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.0756777368556!2d145.15099287633958!3d-37.81978397197936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad63bfb2a6b1e3f%3A0x5045675218ce7b0!2s1A%20Halley%20St%2C%20Blackburn%20VIC%203130%2C%20Australia!5e0!3m2!1sen!2sau!4v1691811234567!5m2!1sen!2sau"
+              width="400" height="300" loading="lazy"></iframe>
+                </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+                </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <div class="form-status-container"></div>
+
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+                  </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/contact-form.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Custom JavaScript for project details -->
+  <script>
+    function showProjectDetails(projectId) {
+      event.preventDefault();
+      const detailsElement = document.getElementById(projectId);
+      if (detailsElement.style.display === "none") {
+        detailsElement.style.display = "block";
+      } else {
+        detailsElement.style.display = "none";
+      }
+    }
+
+    // Fix for navigation
+    document.addEventListener('DOMContentLoaded', function() {
+      console.log("DOM fully loaded - fixing navigation");
+      
+      // Get all navigation links and pages
+      const navigationLinks = document.querySelectorAll("[data-nav-link]");
+      const pages = document.querySelectorAll("[data-page]");
+      
+      console.log("Navigation links found:", navigationLinks.length);
+      console.log("Pages found:", pages.length);
+      
+      // Add click event listeners to all navigation links
+      navigationLinks.forEach((link, i) => {
+        link.addEventListener('click', function() {
+          const clickedText = this.textContent.toLowerCase().trim();
+          console.log("Navigation link clicked:", clickedText);
+          
+          // Remove active class from all navigation links and pages
+          navigationLinks.forEach(navLink => {
+            navLink.classList.remove("active");
+          });
+          
+          pages.forEach(page => {
+            page.classList.remove("active");
+          });
+          
+          // Add active class to the clicked navigation link
+          this.classList.add("active");
+          
+          // Find and activate the corresponding page
+          pages.forEach(page => {
+            if (page.dataset.page === clickedText) {
+              page.classList.add("active");
+              console.log("Activated page:", page.dataset.page);
+            }
+          });
+          
+          // Scroll to top
+          window.scrollTo(0, 0);
+        });
+      });
+
+      // Portfolio filtering functionality
+      const filterButtons = document.querySelectorAll("[data-filter-btn]");
+      const filterItems = document.querySelectorAll("[data-filter-item]");
+      const filterSelectItems = document.querySelectorAll("[data-select-item]");
+      const filterSelect = document.querySelector("[data-select]");
+      const selectValue = document.querySelector("[data-select-value]");
+      
+      // Initialize portfolio filtering
+      if (filterButtons.length && filterItems.length) {
+        console.log("Portfolio filtering initialized");
+        console.log("Filter buttons found:", filterButtons.length);
+        console.log("Filter items found:", filterItems.length);
+        
+        // Add click event listeners to filter buttons
+        filterButtons.forEach((button) => {
+          button.addEventListener("click", function() {
+            console.log("Filter button clicked:", this.textContent);
+            
+            // Remove active class from all filter buttons
+            filterButtons.forEach((btn) => btn.classList.remove("active"));
+            
+            // Add active class to clicked button
+            this.classList.add("active");
+            
+            const filterValue = this.textContent.toLowerCase().trim();
+            
+            if (selectValue) {
+              selectValue.textContent = this.textContent;
+            }
+            
+            filterItems.forEach((item) => {
+              const category = item.dataset.category;
+              console.log("Item category:", category, "Filter value:", filterValue);
+              
+              if (filterValue === "all" || category === filterValue) {
+                item.classList.add("active");
+              } else {
+                item.classList.remove("active");
+              }
+            });
+          });
+        });
+        
+        // Add click event listeners to select items
+        if (filterSelectItems.length) {
+          console.log("Filter select items found:", filterSelectItems.length);
+          
+          filterSelectItems.forEach((item) => {
+            item.addEventListener("click", function() {
+              console.log("Select item clicked:", this.textContent);
+              
+              const filterValue = this.textContent.toLowerCase().trim();
+              
+              if (selectValue) {
+                selectValue.textContent = this.textContent;
+              }
+              
+              filterButtons.forEach((btn) => {
+                if (btn.textContent.toLowerCase().trim() === filterValue) {
+                  btn.classList.add("active");
+                } else {
+                  btn.classList.remove("active");
+                }
+              });
+              
+              filterItems.forEach((item) => {
+                const category = item.dataset.category;
+                
+                if (filterValue === "all" || category === filterValue) {
+                  item.classList.add("active");
+                } else {
+                  item.classList.remove("active");
+                }
+              });
+              
+              // Close the dropdown
+              if (filterSelect) {
+                filterSelect.querySelector(".select-list").classList.remove("active");
+              }
+            });
+          });
+        }
+        
+        // Toggle select dropdown
+        if (filterSelect) {
+          console.log("Filter select found");
+          
+          filterSelect.addEventListener("click", function() {
+            console.log("Filter select clicked");
+            const selectList = this.querySelector(".select-list");
+            
+            if (selectList) {
+              selectList.classList.toggle("active");
+            }
+          });
+        }
+      }
+    });
+  </script>
+
+  <style>
+    .project-details {
+      margin-top: 15px;
+      padding: 15px;
+      background-color: var(--bg-secondary);
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .project-details h4 {
+      margin-bottom: 10px;
+      color: var(--primary);
+    }
+    
+    .project-details ul {
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+    
+    .project-details li {
+      margin-bottom: 5px;
+    }
+
+    /* Form Status Styling */
+    .form-status-container {
+      margin: 15px 0;
+      min-height: 30px;
+    }
+    
+    .form-status {
+      padding: 12px;
+      border-radius: 8px;
+      font-weight: 500;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+    
+    .form-status.success {
+      background-color: rgba(76, 175, 80, 0.1);
+      color: #4CAF50;
+      border: 1px solid #4CAF50;
+    }
+    
+    .form-status.error {
+      background-color: rgba(244, 67, 54, 0.1);
+      color: #F44336;
+      border: 1px solid #F44336;
+    }
+    
+    .form-status.sending {
+      background-color: rgba(33, 150, 243, 0.1);
+      color: #2196F3;
+      border: 1px solid #2196F3;
+    }
+
+    /* Research Interests Styling */
+    .research-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    .research-item .content-card {
+      background-color: var(--bg-secondary);
+      padding: 20px;
+      border-radius: 14px;
+      box-shadow: var(--shadow-2);
+      transition: 0.25s ease;
+    }
+
+    .research-item .content-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-4);
+    }
+
+    .research-item-title {
+      margin-bottom: 10px;
+      color: var(--primary);
+    }
+
+    .research-item-text {
+      color: var(--fg-secondary);
+      line-height: 1.6;
+    }
+
+    /* Certifications Styling */
+    .certifications-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+
+    .certification-item .content-card {
+      background-color: var(--bg-secondary);
+      padding: 15px;
+      border-radius: 14px;
+      box-shadow: var(--shadow-1);
+      transition: 0.25s ease;
+      height: 100%;
+    }
+
+    .certification-item .content-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-3);
+    }
+
+    .certification-title {
+      font-size: 0.95rem;
+      margin-bottom: 5px;
+      color: var(--primary);
+    }
+
+    .certification-issuer {
+      font-size: 0.85rem;
+      color: var(--fg-secondary);
+      font-style: italic;
+    }
+
+    /* Skills Section Styling */
+    .skills-list {
+      display: grid;
+      gap: 20px;
+    }
+
+    .skills-item {
+      padding: 15px;
+      border-left: 4px solid var(--primary);
+      transition: transform 0.3s ease;
+    }
+
+    .skills-item:hover {
+      transform: translateX(5px);
+    }
+
+    .skills-item .title-wrapper {
+      margin-bottom: 8px;
+    }
+
+    .skills-item .title-wrapper h5 {
+      color: var(--primary);
+      font-weight: 600;
+    }
+
+    .skill-text {
+      color: var(--fg-secondary);
+      line-height: 1.6;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 768px) {
+      .certifications-list {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Download CV Button Styling */
+    .download-cv-btn {
+      position: absolute;
+      top: 10px;
+      right: 30px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background-color: transparent;
+      color: var(--text-color, #333);
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      border: 2px solid #ffdb70;
+      box-shadow: var(--shadow-1);
+    }
+
+    .download-cv-btn:hover {
+      background-color: #ffdb70;
+      color: #333;
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-3);
+    }
+
+    .download-cv-btn ion-icon {
+      font-size: 1.1rem;
+    }
+
+    @media (max-width: 768px) {
+      .download-cv-btn {
+        top: 5px;
+        right: 15px;
+        padding: 6px 12px;
+        font-size: 0.8rem;
+      }
+    }
+
+    /* Project Image Styling */
+    .project-img {
+      position: relative;
+      width: 100%;
+      height: 0;
+      padding-bottom: 65%; /* Maintain aspect ratio */
+      overflow: hidden;
+      border-radius: 16px;
+      margin-bottom: 15px;
+    }
+
+    .project-img img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+
+    .project-item:hover .project-img img {
+      transform: scale(1.1);
+    }
+
+    .project-item-icon-box {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+      z-index: 1;
+      border-radius: 16px;
+    }
+
+    .project-item:hover .project-item-icon-box {
+      opacity: 1;
+    }
+
+    .project-item-icon-box ion-icon {
+      color: white;
+      font-size: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      .certifications-list {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+
+</body>
+
+</html>
