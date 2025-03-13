@@ -1021,16 +1021,28 @@
           });
         }
         
-        // Toggle select dropdown
+        // Toggle select dropdown - Fixed for mobile
         if (filterSelect) {
           console.log("Filter select found");
           
-          filterSelect.addEventListener("click", function() {
+          filterSelect.addEventListener("click", function(e) {
             console.log("Filter select clicked");
+            e.stopPropagation(); // Prevent event bubbling
             const selectList = this.querySelector(".select-list");
             
             if (selectList) {
               selectList.classList.toggle("active");
+              console.log("Toggled select list active state:", selectList.classList.contains("active"));
+            }
+          });
+          
+          // Close dropdown when clicking outside
+          document.addEventListener("click", function(e) {
+            if (!filterSelect.contains(e.target)) {
+              const selectList = filterSelect.querySelector(".select-list");
+              if (selectList && selectList.classList.contains("active")) {
+                selectList.classList.remove("active");
+              }
             }
           });
         }
@@ -1039,6 +1051,36 @@
   </script>
 
   <style>
+    /* CSS Variables */
+    :root {
+      --primary: hsl(45, 100%, 72%);
+      --bg-secondary: hsl(240, 2%, 13%);
+      --fg-secondary: hsl(0, 0%, 100%); /* Changed from black/dark to white */
+      --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
+      --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
+      --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.3);
+      --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.4);
+    }
+    
+    /* Fix for mobile dropdown in portfolio section */
+    @media (max-width: 767px) {
+      .filter-select-box {
+        display: block !important;
+        position: relative;
+        z-index: 10;
+      }
+      
+      .select-list.active {
+        opacity: 1 !important;
+        visibility: visible !important;
+        pointer-events: all !important;
+      }
+      
+      .filter-list {
+        display: none !important;
+      }
+    }
+    
     .project-details {
       margin-top: 15px;
       padding: 15px;
@@ -1202,7 +1244,7 @@
       align-items: center;
       gap: 8px;
       background-color: transparent;
-      color: var(--text-color, #333);
+      color: var(--text-color, #fff);
       padding: 8px 16px;
       border-radius: 8px;
       font-size: 0.9rem;
